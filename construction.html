@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Web Page Under Constuction !! Mercstudio | Visual Design Studio
+    </title>
+    <link rel="icon" href="merc-logo-min.png" type="img/gif/png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/5eb7ce944a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      @font-face {
+        font-family: geomanist;
+        src: url(font/Geomanist-Regular.ttf);
+      }
+      @font-face {
+        font-family: geomanist-medium;
+        src: url(font/Geomanist-Medium.ttf);
+      }
+      @font-face {
+        font-family: geomanist-black;
+        src: url(font/Geomanist-Black.ttf);
+      }
+      @font-face {
+        font-family: geomanistbold;
+        src: url(font/Geomanist-Ultra.ttf);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navcontainer">
+      <div class="logo">
+        <a href="./"><img src="merc-logo-min.png" alt="merc-logo" /></a>
+      </div>
+
+      <div class="menu-toggle_icon">
+        <div id="overlay" class="overlay-container">
+          <div class="closebtn">
+            <i id="weed" class="fa-solid fa-xmark" onclick="closeNav()"></i>
+          </div>
+
+          <div id="overlay-links">
+            <a href="./">About</a>
+            <a href="./construction">Services</a>
+            <a href="./shop">Shop</a>
+          </div>
+        </div>
+        <i id="bars" class="fa-solid fa-bars" onclick="openNav()"></i>
+      </div>
+
+      <!-- ********JAVASCRIPT-IS-WEED-FRIENDLY******** -->
+
+      <script>
+        function openNav() {
+          document.getElementById("overlay").style.width = "40%";
+          document.getElementById("bars").style.visibility = "hidden";
+        }
+
+        function closeNav() {
+          document.getElementById("overlay").style.width = "0%";
+          document.getElementById("bars").style.visibility = "visible";
+        }
+      </script>
+
+      <div class="nav-links">
+        <ul>
+          <li><a href="./">About</a></li>
+          <li><a href="./construction">Services</a></li>
+          <li><a href="./shop">Shop</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="nav-shim"></div>
+    <div id="about">
+      <div class="merc-info">
+        <i
+          style="color: #fff; font-size: 100px"
+          class="fa-solid fa-person-digging"
+        ></i>
+      </div>
+    </div>
+
+    <h1 style="color: #fff; text-align: center">
+      Webpage undergoing construction
+    </h1>
+  </body>
+</html>

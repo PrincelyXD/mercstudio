@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercstudio | Visual Design Studio</title>
+    <link rel="icon" href="merc-logo-min.png" type="img/gif/png" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/5eb7ce944a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      @font-face {
+        font-family: geomanist;
+        src: url(font/Geomanist-Regular.ttf);
+      }
+      @font-face {
+        font-family: geomanist-medium;
+        src: url(font/Geomanist-Medium.ttf);
+      }
+      @font-face {
+        font-family: geomanist-black;
+        src: url(font/Geomanist-Black.ttf);
+      }
+      @font-face {
+        font-family: geomanistbold;
+        src: url(font/Geomanist-Ultra.ttf);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navcontainer">
+      <div class="logo">
+        <a href="./"><img src="merc-logo-min.png" alt="merc-logo" /></a>
+      </div>
+
+      <div class="menu-toggle_icon">
+        <div id="overlay" class="overlay-container">
+          <div class="closebtn">
+            <i id="weed" class="fa-solid fa-xmark" onclick="closeNav()"></i>
+          </div>
+
+          <div id="overlay-links">
+            <a href="./">About</a>
+            <a href="./construction">Services</a>
+            <a href="./shop">Shop</a>
+          </div>
+        </div>
+        <i id="bars" class="fa-solid fa-bars" onclick="openNav()"></i>
+      </div>
+
+      <!-- ********JAVASCRIPT-IS-WEED-FRIENDLY******** -->
+
+      <script>
+        function openNav() {
+          document.getElementById("overlay").style.width = "40%";
+          document.getElementById("bars").style.visibility = "hidden";
+        }
+
+        function closeNav() {
+          document.getElementById("overlay").style.width = "0%";
+          document.getElementById("bars").style.visibility = "visible";
+        }
+      </script>
+
+      <div class="nav-links">
+        <ul>
+          <li><a href="./">About</a></li>
+          <li><a href="./construction">Services</a></li>
+          <li><a class="current" href="./shop">Shop</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="nav-shim"></div>
+    <div id="about">
+      <div class="merc-info">
+        <h2>Shop</h2>
+      </div>
+    </div>
+
+    <footer id="last-section">
+      <div id="info-1" class="contact-info">
+        <video width="330" height="330" autoplay loop muted playsinline>
+          <source src="merc-BGlogo.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div id="info-2" class="contact-info">
+        <h2>Mercs Studio</h2>
+        <a href="./"><i class="fa-solid fa-angle-right"></i> About</a>
+        <a href="./construction"
+          ><i class="fa-solid fa-angle-right"></i> Services</a
+        >
+        <a href="./construction"
+          ><i class="fa-solid fa-angle-right"></i> Our work</a
+        >
+        <a href="./construction"
+          ><i class="fa-solid fa-angle-right"></i> Creative thinking</a
+        >
+        <a href="./construction"
+          ><i class="fa-solid fa-angle-right"></i> Survey</a
+        >
+        <h2>In partnership with</h2>
+        <a id="Scube" href="https://www.slatecube.com/" target="_blank"
+          ><img src="partners-slatecube.png" alt="partners"
+        /></a>
+      </div>
+      <div id="info-3" class="contact-info">
+        <h2>Contact Us</h2>
+        <p>Mercstudio@slatecube.com</p>
+        <p>+44 25 654 200 (England)</p>
+        <h2>Say Hi. (Work hours)</h2>
+        <p>9 am - 6 pm</p>
+        <h2>Follow us</h2>
+        <a href="https://www.instagram.com/_princely.x/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="javascript:void(0);"><i class="fa-brands fa-youtube"></i></a>
+        <a href="javascript:void(0);"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/PrincelyXD"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="javascript:void(0);"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </footer>
+
+    <footer id="bottom-end">
+      <div id="bottom-elementor-2nd">
+        <div class="hr-elementor-2nd"></div>
+        <div class="CR">
+          Copyright © 2023 Merc Studios. All rights reserved. Website by
+          Princely Kwekowe (CEO) Merc Studios <br />
+          England | Nigeria | South Africa | United States | We are global
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
