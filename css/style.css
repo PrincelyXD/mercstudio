@@ -660,7 +660,6 @@ svg {
   width: 90%;
   height: 400px;
   margin-top: 0;
-
   background-color: #000;
   color: #fff;
   font-size: 13px;
@@ -677,6 +676,10 @@ svg {
   margin: 10px 0px;
 }
 
+#studio-gif {
+  width: 330px;
+  height: 330;
+}
 #info-2 a {
   color: #fff;
   display: block;
@@ -732,6 +735,7 @@ svg {
     font-size: 13px;
     padding: 10px;
   }
+
   #info-2 a {
     margin: 10px 0px;
   }
