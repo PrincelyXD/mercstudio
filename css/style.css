@@ -55,7 +55,7 @@ svg {
   justify-content: flex-end;
 }
 .logo img {
-  /* padding: 6px 0px; */
+  padding: 6px 0px;
   height: 60px;
   transition: all 150ms ease-in-out;
 }
@@ -83,7 +83,7 @@ svg {
 
 .overlay-container {
   width: 0%;
-  height: 150px;
+  height: 200px;
   position: fixed;
   border-radius: 0px 0px 0px 50px;
   z-index: 1;
@@ -101,10 +101,10 @@ svg {
 }
 
 #overlay-links a {
-  font-size: 19px;
+  font-size: 20px;
   color: #fff;
   display: block;
-  padding: 5px;
+  padding: 10px 5px;
 }
 #overlay-links a:hover {
   background-color: rgba(0, 0, 0, 0.777);
@@ -114,7 +114,7 @@ svg {
   position: absolute;
   font-size: 30px;
   top: 20px;
-  right: 20px;
+  right: 12px;
   transition: 0.5s ease-in-out;
   padding: 5px;
 }
@@ -766,6 +766,7 @@ svg {
   text-align: center;
   font-size: 10px;
   line-height: 2;
+  padding: 0px 8px;
 }
 
 /* WHAT HAPPENS WHEN VIEW PORT IS BELOW 500PX menu-toggle-icon */
