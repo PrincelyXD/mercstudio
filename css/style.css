@@ -64,7 +64,7 @@ svg {
 }
 
 .menu-toggle_icon {
-  font-size: 22px;
+  font-size: 23px;
   color: #fff;
   width: 50px;
   display: flex;
@@ -184,7 +184,6 @@ svg {
 }
 .merc-info {
   background-color: #000;
-  /* width: 100%; */
   max-width: 750px;
   color: #fff;
   text-align: center;
@@ -193,7 +192,19 @@ svg {
   padding: 35px 0px;
   font-family: geomanistbold, "Roboto", sans-serif;
   text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+  /* animation: duration 2s;
+  animation-name: slideup; */
 }
+/* @keyframes slideup{
+  from{
+    margin-top: 100%;
+    height: 300%;
+  }
+  to{
+    margin-top: 0%;
+    width: 100%;
+  }
+} */
 
 /* ***********         BIG-SCREEN     ************ */
 
@@ -767,6 +778,7 @@ svg {
   font-size: 10px;
   line-height: 2;
   padding: 0px 8px;
+  user-select: none;
 }
 
 /* WHAT HAPPENS WHEN VIEW PORT IS BELOW 500PX menu-toggle-icon */
