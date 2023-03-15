@@ -57,10 +57,11 @@ svg {
 .logo img {
   padding: 6px 0px;
   height: 60px;
-  transition: all 150ms ease-in-out;
+  transition: all 250ms ease-in;
 }
 .logo img:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
+  rotate: 5deg;
 }
 
 .menu-toggle_icon {
